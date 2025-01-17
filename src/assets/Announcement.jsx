@@ -4,8 +4,8 @@ const Announcement = () => {
   return (
     <>
      
-      <div className="container"><hr />
-        <div class="card">
+      <div className="container mt-2 ">
+        <div class="card bg-primary-subtle">
           <div className="row">
             <div className="col col-lg-3 text-center">
               <div class="card-body fw-bold">முக்கிய அறிவிப்பு : </div>

@@ -5,10 +5,9 @@ import img3 from "./img3.jpg";
 const Slide = () => {
   return (
     <>
-      <div className="container ">
-        <hr />
+      <div className="container mt-2">
 
-        <div class="card ">
+        <div class="card bg-primary-subtle">
           <div class="card-body">
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators">
