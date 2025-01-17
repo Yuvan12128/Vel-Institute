@@ -1,0 +1,27 @@
+.animation-1 {
+    width: 100%;  /* Full width container */
+    overflow: hidden;  /* Hide any text that overflows */
+    /* background-color: #f8f9fa;  Light background */
+    padding: 10px;
+    position: relative;
+  }
+  
+  .animation-1 div {
+    display: inline-block;
+    white-space: nowrap;  /* Prevent the text from wrapping */
+    font-size: 16px;  /* Adjust text size */
+    /* color: #d9534f;  Bootstrap danger color */
+    font-weight: bold;
+    animation: scroll-left 25s linear infinite; /* Correct animation name */
+    
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);  /* Start outside the right side */
+    }
+    100% {
+      transform: translateX(-100%);  /* End outside the left side */
+    }
+  }
+  
