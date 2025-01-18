@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const NavBar = () => {
   return (
@@ -22,9 +23,9 @@ const NavBar = () => {
                 <div class="collapse navbar-collapse " id="navbarNavDropdown">
                   <ul class="navbar-nav ">
                     <li class="nav-item ">
-                      <a class="nav-link active " aria-current="page" href="#">
+                      <Link to='/' class="nav-link active " aria-current="page" href="#">
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li class="nav-item dropdown">
                       <a
@@ -38,18 +39,23 @@ const NavBar = () => {
                       </a>
                       <ul class="dropdown-menu">
                         <li>
+                        <Link to='/JuniorGradeinTamil' class="dropdown-item ">
+                              Junior Grade in Tamil
+                            </Link>
+                        </li>
+                        <li>
                           <a class="dropdown-item" href="#">
-                            English Type Writing
+                           Junior Grade in English
                           </a>
                         </li>
                         <li>
                           <a class="dropdown-item" href="#">
-                            Tamil Type Writing
+                            Senior Grade in Tamil
                           </a>
                         </li>
                         <li>
                           <a class="dropdown-item" href="#">
-                            Short Hand
+                            Senior Grade in English
                           </a>
                         </li>
                       </ul>
@@ -67,17 +73,27 @@ const NavBar = () => {
                       <ul class="dropdown-menu">
                         <li>
                           <a class="dropdown-item" href="#">
-                            English Type Writing
+                            Junior Grade in Tamil
                           </a>
                         </li>
                         <li>
                           <a class="dropdown-item" href="#">
-                            Tamil Type Writing
+                            Junior Grade in English
                           </a>
                         </li>
                         <li>
                           <a class="dropdown-item" href="#">
-                            Short Hand
+                            Inter Grade in English
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            Senior Grade in Tamil
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            Senior Grade in English
                           </a>
                         </li>
                       </ul>

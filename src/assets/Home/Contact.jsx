@@ -8,11 +8,11 @@ const Contact = () => {
                     <div className="card-body">
                         <div className="row">
                             <div className="col">
-                                <div className="card bg-secondary">
-                                    <div className="card-body text-center bg-secondary-subtle">
+                                <div className="card ">
+                                    <div className="card-body text-center bg-secondary text-light">
                                         <h4>Map</h4>
                                     </div>
-                                    <div className="card-body">
+                                    <div className="card-body bg-secondary-subtle">
                                         <div className="mapouter" style={{ position: "relative", textAlign: "right", width: "400px", height: "300px" }}>
                                             <div className="gmap_canvas" style={{ overflow: "hidden", background: "none!important", width: "400px", height: "300px" }}>
                                                 <iframe
@@ -32,11 +32,11 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="col">
-                                <div className="card bg-secondary">
-                                    <div className="card-body text-center bg-secondary-subtle ">
+                                <div className="card">
+                                    <div className="card-body text-center bg-secondary text-light">
                                         <h4>Address</h4>
                                     </div>
-                                    <div className="card-body text-center text-light fs-4">
+                                    <div className="card-body text-center fs-4 bg-secondary-subtle">
                                         370, Main Rd, Tittakudi,<br />
                                         Tamil Nadu 606106
                                         
@@ -45,13 +45,13 @@ const Contact = () => {
                             </div>
                             <div className="col">
                                 <div className="card">
-                                    <div className="card-body">
+                                    <div className="card-body text-cneter bg-secondary text-light">
                                         <h4>Contact</h4>
                                     </div>
-                                    <div className="card-body">
-                                    <i class="fa-solid fa-mobile fs-4"> 8667660688</i> 
+                                    <div className="card-body bg-secondary-subtle">
+                                    <i class="fa-solid fa-mobile fs-4 "> 8667660688</i> 
                                     </div>
-                                    <div className="card-body">
+                                    <div className="card-body bg-secondary-subtle">
                                     <i class="fa-regular fa-envelope fs-4"></i>
                                     </div>
                                 </div>
