@@ -6,6 +6,8 @@ import NavBar from "./assets/Home/NavBar"
 import Slide from "./assets/Home/Slide"
 import Update from "./assets/Home/Update"
 import JuniorGradeinTamil from "./assets/TypeWritingCourses/JuniorGradeinTamil"
+import JuniorGradeinEnglish from "./assets/TypeWritingCourses/JuniorGradeinEnglish"
+import SeniorGradeinTamil from "./assets/TypeWritingCourses/SeniorGradeinTamil"
 
 
 function App() {
@@ -27,7 +29,10 @@ function App() {
               <Bottom />
             </>} />
             <Route path="/JuniorGradeinTamil"element={ <><JuniorGradeinTamil/><Bottom /></>}/>
+            <Route path="/JuniorGradeinEnglish"element={ <><JuniorGradeinEnglish/><Bottom /></>}/>
+            <Route path="/SeniorGradeinTamil"element={ <><SeniorGradeinTamil/><Bottom /></>}/>
         </Routes>
+        
         
       </BrowserRouter>
      

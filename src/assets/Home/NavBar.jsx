@@ -44,14 +44,15 @@ const NavBar = () => {
                             </Link>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">
-                           Junior Grade in English
-                          </a>
+                        <Link to='/JuniorGradeinEnglish' class="dropdown-item ">
+                              Junior Grade in English
+                            </Link>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">
-                            Senior Grade in Tamil
-                          </a>
+                       
+                        <Link to='/SeniorGradeinTamil' class="dropdown-item ">
+                              Senior Grade in Tamil
+                            </Link>
                         </li>
                         <li>
                           <a class="dropdown-item" href="#">
