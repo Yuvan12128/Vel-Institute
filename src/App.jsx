@@ -33,22 +33,22 @@ function App() {
               <Announcement />
               <Slide />
               <Update />
-              <Contact />
-              <Bottom />
+             
             </>} />
-            <Route path="/JuniorGradeinTamil"element={ <><JuniorGradeinTamil/> <Contact /><Bottom /></>}/>
-            <Route path="/JuniorGradeinEnglish"element={ <><JuniorGradeinEnglish/><Contact /><Bottom /></>}/>
-            <Route path="/SeniorGradeinTamil"element={ <><SeniorGradeinTamil/><Bottom /></>}/>
-            <Route path="/SeniorGradeinEnglish"element={ <><SeniorGradeinEnglish/><Contact /><Bottom /></>}/>
-            <Route path="/JuniorGradeinTamil1"element={ <><JuniorGradeinTamil1/><Contact /><Bottom /></>}/>
-            <Route path="/JuniorGradeinEnglish1"element={ <><JuniorGradeinEnglish1/><Contact /><Bottom /></>}/>
-            <Route path="/InterGradeinEnglish"element={ <><InterGradeinEnglish/><Contact /><Bottom /></>}/>
-            <Route path="/SeniorGradeinTamil1"element={ <>< SeniorGradeinTamil1/><Contact /><Bottom /></>}/>
-            <Route path="/SeniorGradeinEnglish1"element={ <>< SeniorGradeinEnglish1/><Contact /><Bottom /></>}/>
-            <Route path="/Staff" element={<> <Staff/><Contact /><Bottom /></>}/>
-            <Route path="/ContactUs" element={<> <ContactUs/><Contact /><Bottom /></>}/>
+            <Route path="/JuniorGradeinTamil"element={ <><JuniorGradeinTamil/> </>}/>
+            <Route path="/JuniorGradeinEnglish"element={ <><JuniorGradeinEnglish/></>}/>
+            <Route path="/SeniorGradeinTamil"element={ <><SeniorGradeinTamil/></>}/>
+            <Route path="/SeniorGradeinEnglish"element={ <><SeniorGradeinEnglish/></>}/>
+            <Route path="/JuniorGradeinTamil1"element={ <><JuniorGradeinTamil1/></>}/>
+            <Route path="/JuniorGradeinEnglish1"element={ <><JuniorGradeinEnglish1/></>}/>
+            <Route path="/InterGradeinEnglish"element={ <><InterGradeinEnglish/></>}/>
+            <Route path="/SeniorGradeinTamil1"element={ <>< SeniorGradeinTamil1/></>}/>
+            <Route path="/SeniorGradeinEnglish1"element={ <>< SeniorGradeinEnglish1/></>}/>
+            <Route path="/Staff" element={<> <Staff/></>}/>
+            <Route path="/ContactUs" element={<> <ContactUs/></>}/>
+            
         </Routes>
-        
+        <Contact /><Bottom />
         
       </BrowserRouter>
      
