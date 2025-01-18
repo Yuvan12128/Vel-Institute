@@ -39,25 +39,25 @@ const NavBar = () => {
                       </a>
                       <ul class="dropdown-menu">
                         <li>
-                        <Link to='/JuniorGradeinTamil' class="dropdown-item ">
-                              Junior Grade in Tamil
-                            </Link>
+                          <Link to='/JuniorGradeinTamil' class="dropdown-item ">
+                            Junior Grade in Tamil
+                          </Link>
                         </li>
                         <li>
-                        <Link to='/JuniorGradeinEnglish' class="dropdown-item ">
-                              Junior Grade in English
-                            </Link>
+                          <Link to='/JuniorGradeinEnglish' class="dropdown-item ">
+                            Junior Grade in English
+                          </Link>
                         </li>
                         <li>
-                       
-                        <Link to='/SeniorGradeinTamil' class="dropdown-item ">
-                              Senior Grade in Tamil
-                            </Link>
+
+                          <Link to='/SeniorGradeinTamil' class="dropdown-item ">
+                            Senior Grade in Tamil
+                          </Link>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">
+                        <Link to='/SeniorGradeinEnglish' class="dropdown-item ">
                             Senior Grade in English
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -73,29 +73,29 @@ const NavBar = () => {
                       </a>
                       <ul class="dropdown-menu">
                         <li>
-                          <a class="dropdown-item" href="#">
-                            Junior Grade in Tamil
-                          </a>
+                        <Link to='/JuniorGradeinTamil1' class="dropdown-item ">
+                           Junior Grade in Tamil
+                          </Link>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">
-                            Junior Grade in English
-                          </a>
+                        <Link to='/JuniorGradeinEnglish1' class="dropdown-item ">
+                           Junior Grade in English
+                          </Link>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">
-                            Inter Grade in English
-                          </a>
+                        <Link to='/InterGradeinEnglish' class="dropdown-item ">
+                          Inter Grade in English
+                          </Link>
+                        </li>
+                        <li> 
+                          <Link to='/SeniorGradeinTamil1' class="dropdown-item ">
+                         Senior Grade in Tamil 
+                          </Link>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="#">
-                            Senior Grade in Tamil
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Senior Grade in English
-                          </a>
+                        <Link to='/SeniorGradeinEnglish1' class="dropdown-item ">
+                         Senior Grade in English 
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -132,9 +132,9 @@ const NavBar = () => {
                 <span class="navbar-text">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">
+                      <Link to='/Staff' class="nav-link active" aria-current="page" href="#">
                         Staff
-                      </a>
+                      </Link>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">
@@ -142,9 +142,9 @@ const NavBar = () => {
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">
-                        Contact
-                      </a>
+                    <Link to='/ContactUs' class="nav-link active" aria-current="page" href="#">
+                        Contact Us
+                      </Link>
                     </li>
                   </ul>
                 </span>

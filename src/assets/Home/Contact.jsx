@@ -49,10 +49,13 @@ const Contact = () => {
                                         <h4>Contact</h4>
                                     </div>
                                     <div className="card-body bg-secondary-subtle">
-                                    <i class="fa-solid fa-mobile fs-4 "> 8667660688</i> 
+                                    <i class="fa-solid fa-phone fs-4 "> </i> <span className='fs-4'>8667660688</span>
                                     </div>
                                     <div className="card-body bg-secondary-subtle">
                                     <i class="fa-regular fa-envelope fs-4"></i>
+                                    </div>
+                                    <div className="card-body bg-secondary-subtle">
+                                    <i class="fa-brands fa-whatsapp fs-4"></i>
                                     </div>
                                 </div>
                             </div>
