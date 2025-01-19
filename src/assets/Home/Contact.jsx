@@ -10,7 +10,7 @@ const Contact = () => {
                             <div className="col">
                                 <div className="card ">
                                     <div className="card-body text-center bg-secondary text-light">
-                                        <h4>Map</h4>
+                                        <h4><i class="fa-solid fa-map-location-dot"></i> Map</h4>
                                     </div>
                                     <div className="card-body bg-secondary-subtle">
                                         <div className="mapouter" style={{ position: "relative", textAlign: "right", width: "400px", height: "300px" }}>
@@ -34,7 +34,7 @@ const Contact = () => {
                             <div className="col">
                                 <div className="card">
                                     <div className="card-body text-center bg-secondary text-light">
-                                        <h4>Address</h4>
+                                        <h4><i class="fa-solid fa-location-dot"></i> Address</h4>
                                     </div>
                                     <div className="card-body text-center fs-4 bg-secondary-subtle">
                                         370, Main Rd, Tittakudi,<br />

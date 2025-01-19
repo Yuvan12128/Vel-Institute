@@ -7,7 +7,7 @@ const Bottom = () => {
                 <div className="card">
                     <div className="card-body bg-primary ">
                         <div className="card-body text-center fs-5 bg-primary fw-bold">
-                            Copyright &copy; : 2025 All Right Reserved @ VTI
+                            Copyright &copy; : 2025 All Right Reserved @ YS
                         </div>
 
                     </div>
